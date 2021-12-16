@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>#TITLE# - Online Library</title>
+    <meta charset="utf-8">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="../js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar Not Registered -->
+    <nav class="navbar navbar-default">
+      <div id="nav-container" class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img id="brand-image" src="../img/logo-placeholder.png" alt="brand logo">
+          <h3 class="navbar-text nav-text">Title</h3>
+        </a>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-left">
+            <li><a class="navbar-text nav-text text-center">FAQ</a></li>
+            <li><a class="navbar-text nav-text text-center">Contact Us</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a class="navbar-text nav-text text-center" data-target="#loginModal" data-toggle="modal">Login</a></li>
+            <li><a class="navbar-text nav-text text-center" data-target="#registerModal" data-toggle="modal">Register</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Item Search -->
+    <div id="searchContainer-item" class="container-fluid">
+        <form class="form-horizontal">
+          <div class="col-sm-10 col-sm-offset-1 input-group">
+            <span id="searchIcon" class="input-group-addon glyphicon glyphicon-search"></span>
+            <input type="text" class="form-control input-lg" id="searchInput" placeholder="Search for another movie or book">
+            <span class="input-group-btn">
+              <button class="btn btn-primary input-lg" type="submit">Search</button>
+            </span>
+          </div>
+        </form>
+    </div>
+    <!-- Item Details -->
+    <div class="container-fluid" id="itemContainer">
+      <div class="col-sm-4">
+        <img src="../img/item-placeholder.png" alt="Item Description" id="itemImg">
+        <div class="row">
+          <p class="cl-white text-handle belowImgTags" id="item-score">Score :</p>
+        </div>
+        <div class="row">
+          <a class="cl-white text-handle belowImgTags">Trailer</a>
+        </div>
+        <div class="row">
+          <a class="cl-white text-handle belowImgTags">+Add to List</a>
+        </div>
+      </div>
+      <div class="col-sm-8">
+        <div class="row">
+          <h2 id="item-title" class="cl-white text-handle"><strong>Item Name</strong></h2>
+        </div>
+        <div class="row">
+          <div class="col-sm-4 pull-left">
+            <h4 class="cl-white">Release Date :</h4>
+          </div>
+          <div class="col-sm-4">
+            <h4 class="cl-white">Lorem Ipsum</h4>
+          </div>
+        </div>
+        <div class="row">
+          <h3 class="cl-white text-handle">Overview</h3>
+          <div id="itemDescription" class="panel panel-default">
+            <div class="panel-body">
+              <p>Lorem Ipsum</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Page Footer -->
+    <footer id="pageFooter" class="navbar-fixed-bottom">
+      <span id="leftContent" class="pull-left text-handle">
+        <a href="">Site Map</a>
+      </span>
+      <span id="rightContent" class="pull-right text-handle">
+        <p> Copyright © 2017 Kubilay Koçdemir, Berna Yüce</p>
+      </span>
+    </footer>
+    <!-- Login Modal -->
+    <div id="loginModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel">
+      <div class="modal-dialog" role="document">
+      <div class="modal-content">
+          <div class="modal-body">
+            <h2 class="lead text-center">Login</h2>
+          <form>
+            <div class="form-group">
+              <div class="input-group">
+                <span class="input-group-addon glyphicon glyphicon-user"></span>
+                <input type="email" class="form-control" id="loginEmail" placeholder="Email">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="input-group">
+                <span class="input-group-addon glyphicon glyphicon-lock"></span>
+                <input type="password" class="form-control" id="loginPassword" placeholder="Password">
+              </div>
+            </div>
+            <div class="form-group">
+              <button type="submit" class="btn btn-primary btn-block">Login</button>
+              <button type="submit" class="btn btn-primary btn-block">Forgot Password</button>
+            </div>
+          </form>
+          </div>
+      </div>
+      </div>
+    </div>
+    <!-- Register Modal -->
+    <div id="registerModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="registerModalLabel">
+      <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <h2 class="lead text-center">Register</h2>
+          <form>
+            <div class="form-group">
+              <div class="input-group">
+                <span class="input-group-addon glyphicon glyphicon-user"></span>
+                <input type="text" class="form-control" id="registerName" placeholder="Name">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="input-group">
+                <span class="input-group-addon glyphicon glyphicon-user"></span>
+                <input type="text" class="form-control" id="registerSurname" placeholder="Surname">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="input-group">
+                <span class="input-group-addon glyphicon glyphicon-envelope"></span>
+                <input type="email" class="form-control" id="registerEmail" placeholder="Email">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="input-group">
+                <span class="input-group-addon glyphicon glyphicon-lock"></span>
+                <input type="password" class="form-control" id="registerPassword" placeholder="Password">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="input-group">
+                <span class="input-group-addon glyphicon glyphicon-lock"></span>
+                <input type="password" class="form-control" id="registerPasswordVerify" placeholder="Verify Password">
+              </div>
+            </div>
+            <div class="form-group">
+                  <button type="submit" class="btn btn-primary btn-block">Create Account</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      </div>
+    </div>
+  </body>
+</html>

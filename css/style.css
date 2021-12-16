@@ -1,0 +1,232 @@
+.navbar{
+  background-color: #3f84b5;
+  width: 100%;
+  height: 80px;
+  border: none;
+  border-radius: 0;
+  margin-bottom: 0;
+}
+#pageFooter{
+  background-color: #3f84b5;
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-radius: 0;
+  margin-top: 20px;
+  position: absolute;
+  bottom: 0;
+}
+.text-handle{
+  margin: auto;
+  color: #ffffff;
+  padding: 15px;
+  font-weight: bold;
+}
+.text-handle p{
+  margin-bottom: 0;
+}
+.text-handle a{
+  /*text-decoration: none;*/
+  color: #ffffff;
+}
+html{
+  position: relative;
+  min-height: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #232E35;
+    margin-bottom: 60px;
+}
+.nav-text{
+  color: #ffffff !important;
+  font-family: sans-serif !important;
+  margin-left: 0;
+}
+.navbar-brand{
+  margin: auto;
+  display: flex !important;
+  width: auto;
+  height: auto;
+  max-height: 80px;
+  margin-left: 30px;
+}
+#brand-image{
+  height: auto;
+  width: auto;
+  max-width: 70px;
+  max-height: 80px;
+}
+#nav-container{
+  height: 100%;
+  width: 100%;
+  padding: 0;
+}
+.navbar-collapse{
+  padding: 0;
+}
+.navbar-right{
+  margin-right: 15px;
+}
+.navbar-nav li a{
+  height: 100%;
+  width: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-weight: bold;
+  margin-right: 0;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a{
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
+#top-content{
+  background-image: url("http://d1xenuxjgcz4dx.cloudfront.net/wp-content/uploads/2016/06/The_Library_SOURCE_pixabay.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: 550px;
+  filter: grayscale(20%);
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+}
+#spacer{
+  width: 100%;
+  height: 360px;
+}
+#searchContainer{
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+#searchContainer-item{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.form-horizontal{
+  margin-bottom: 0;
+}
+.border-right{
+  border-right: 1px solid white;
+}
+.border-top{
+  border-top: 1px solid white;
+}
+.border-bottom{
+  border-bottom: 1px solid white;
+  padding-bottom: 15px;
+}
+#overlay-txt{
+  font-size: 60px;
+}
+.icon{
+  font-size: 200px;
+}
+.cl-white{
+  color: white;
+}
+.cl-grey{
+  color: dimgrey;
+}
+.glyphicon {
+  top: 0px !important;
+}
+.margin-top{
+  margin-top: 50px;
+}
+.img-helper{
+  min-width: 100%;
+  height: 250px;
+  min-height: 100%;
+}
+.belowImgTags{
+  margin-left: 30px;
+}
+.overlay-background{
+  background-color: rgba(105, 105, 105,0.7);
+}
+#bottom-overlay{
+  margin-top: 10px;
+}
+#itemImg{
+    height: 400px;
+    width: 300px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    box-shadow: 2px 4px 5px 0 #ffffff, -1px 2px 10px 0 #cbcbcb;
+}
+#itemContainer{
+  height: 100%;
+}
+#item-title{
+  margin-top: 15px !important;
+}
+#itemDescription{
+  margin: 0 15px 15px 15px;
+}
+#item-score{
+  padding-bottom: 0;
+}
+#search-item{
+  background-color: #2F6181;
+  background-clip: content-box;
+  border-bottom: 2px solid #ffffff;
+}
+.no-float{
+  display: table-cell;
+  float: none;
+}
+.result-row{
+  height: 100%;
+  display: table-row;
+}
+.result-container{
+  display: table;
+  width: 100%;
+  box-sizing: border-box;
+}
+/* Table Styling */
+.table-striped th, td{
+  border-right: 1px solid #ddd;
+  text-align: center;
+}
+.table-responsive{
+  margin-top: 50px;
+}
+.table-responsive thead, .table-responsive tbody{
+  background-color: #2F6181;
+}
+.table-responsive caption{
+  background-color: #3F84B5;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.no-border-right{
+  border-right: 0px !important;
+}
+.table tbody>tr>td.vert-align{
+    vertical-align: middle;
+}
+#item-tagline{
+  margin-top: 0;
+  padding-left: 15px;
+}
+.modal-content{
+  background-color: #232E35;
+}
+#verificationAlert{
+  display: none;
+}
+label.error{
+  color: #ffffff !important;
+}
+.item-icon{
+  font-size: 60px;
+}
+.vresize{
+  resize: vertical;
+}
